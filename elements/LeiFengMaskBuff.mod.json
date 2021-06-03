@@ -1,0 +1,22 @@
+{
+  "_fv": 18,
+  "_type": "potion",
+  "definition": {
+    "name": "Lei Feng Mask Buff",
+    "effectName": "Lei Feng Mask Buff",
+    "icon": "lei_feng.png",
+    "color": {
+      "value": -205,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "registerPotionType": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "LeiFengMaskBuff_Working"
+    }
+  }
+}

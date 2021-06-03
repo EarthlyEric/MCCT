@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "mc_ct:block/lei_feng_world_portal_ew"
+    },
+    "axis=x": {
+      "model": "mc_ct:block/lei_feng_world_portal_ns"
+    }
+  }
+}

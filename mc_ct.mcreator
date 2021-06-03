@@ -1,0 +1,254 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "MinecraftCreativeHUD",
+      "type": "overlay",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minecraft_creative_hud",
+      "path": "~/MCCT "
+    },
+    {
+      "name": "TNTWay",
+      "type": "biome",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tnt_way",
+      "path": "~/MCCT_TNTworld"
+    },
+    {
+      "name": "LeiFengWorld",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lei_feng_world",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/MCCT_TNTworld"
+    },
+    {
+      "name": "LeiFeng_Spawn",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lei_feng_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/MCCT_TNTworld"
+    },
+    {
+      "name": "LeiFeng",
+      "type": "mob",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lei_feng",
+      "path": "~/MCCT_TNTworld"
+    },
+    {
+      "name": "LeiFeng_Dead",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lei_feng_dead",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/MCCT_TNTworld"
+    },
+    {
+      "name": "LeiFengMask",
+      "type": "armor",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lei_feng_mask",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      },
+      "path": "~/MCCT_TNTworld"
+    },
+    {
+      "name": "LeiFengTab",
+      "type": "tab",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lei_feng_tab",
+      "path": "~/MCCT_TNTworld"
+    },
+    {
+      "name": "LeiFengMaskBuff",
+      "type": "potion",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lei_feng_mask_buff",
+      "path": "~/MCCT_TNTworld"
+    },
+    {
+      "name": "LeiFengMaskBuff_Working",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lei_feng_mask_buff_working",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MCCT_TNTworld"
+    },
+    {
+      "name": "LeiFengMask_Buff_Get",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lei_feng_mask_buff_get",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MCCT_TNTworld"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "zh_tw": {
+      "item.mc_ct.lei_feng_world": "雷瘋世界傳送門觸發器",
+      "item.minecraft.splash_potion.effect.lei_feng_mask_buff": "雷瘋之力粒子",
+      "item.mc_ct.lei_feng_mask_boots": "",
+      "effect.lei_feng_mask_buff": "雷瘋之力",
+      "item.mc_ct.lei_feng_mask_helmet": "雷瘋面具",
+      "biome.mc_ct.tnt_way": "TNT Way",
+      "item.minecraft.lingering_potion.effect.lei_feng_mask_buff": "Lingering Lei Feng Mask Buff",
+      "item.minecraft.tipped_arrow.effect.lei_feng_mask_buff": "Arrow of Lei Feng Mask Buff",
+      "output.mc_ct.leifengleftgame": "tellraw @a {\"text\":\"Lei_Feng_ 離開了遊戲\",\"color\":\"yellow\"}",
+      "item.minecraft.potion.effect.lei_feng_mask_buff": "Lei Feng Mask Buff",
+      "output.mc_ct.leifengjoingame": "tellraw @a {\"text\":\"Lei_Feng_ 加入了遊戲\",\"color\":\"yellow\"}",
+      "itemGroup.tablei_feng_tab": "Lei Feng Tab",
+      "item.mc_ct.lei_feng_mask_chestplate": "",
+      "item.mc_ct.lei_feng_mask_leggings": "",
+      "item.mc_ct.lei_feng_spawn_egg": "雷瘋 生成蛋",
+      "entity.mc_ct.lei_feng": "雷瘋"
+    },
+    "en_us": {
+      "item.mc_ct.lei_feng_world": "Lei Feng World Portal Igniter",
+      "item.minecraft.splash_potion.effect.lei_feng_mask_buff": "Splash Lei Feng Mask Buff",
+      "item.mc_ct.lei_feng_mask_boots": "",
+      "effect.lei_feng_mask_buff": "Lei Feng Mask Buff",
+      "item.mc_ct.lei_feng_mask_helmet": "Lei Feng Mask ",
+      "biome.mc_ct.tnt_way": "TNT Way",
+      "item.minecraft.lingering_potion.effect.lei_feng_mask_buff": "Lingering Lei Feng Mask Buff",
+      "item.minecraft.tipped_arrow.effect.lei_feng_mask_buff": "Arrow of Lei Feng Mask Buff",
+      "output.mc_ct.leifengleftgame": "tellraw @a {\"text\":\"Lei_Feng_ left thr game\",\"color\":\"yellow\"}",
+      "item.minecraft.potion.effect.lei_feng_mask_buff": "Lei Feng Mask Buff",
+      "output.mc_ct.leifengjoingame": "tellraw @a {\"text\":\"Lei_Feng_  join the game\",\"color\":\"yellow\"}",
+      "itemGroup.tablei_feng_tab": "Lei Feng Tab",
+      "item.mc_ct.lei_feng_mask_chestplate": "",
+      "item.mc_ct.lei_feng_mask_leggings": "",
+      "item.mc_ct.lei_feng_spawn_egg": "Lei Feng Spawn Egg",
+      "entity.mc_ct.lei_feng": "Lei Feng"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "MCCT ",
+        "children": []
+      },
+      {
+        "name": "MCCT_TNTworld",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "mc_ct",
+    "modName": "Minecraft Creative",
+    "version": "v0.2.beta",
+    "description": "LOL",
+    "author": "EarthlyEric6@Reload Dev",
+    "websiteURL": "https://home.reload-dev.ml/",
+    "license": "Custom license",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "lei_feng_mask",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Build Tools:Mcreator",
+    "modElementsPackage": "dev.reload.mc_ct",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

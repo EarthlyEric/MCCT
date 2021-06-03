@@ -1,0 +1,18 @@
+{
+  "item.mc_ct.lei_feng_world": "Lei Feng World Portal Igniter",
+  "item.minecraft.splash_potion.effect.lei_feng_mask_buff": "Splash Lei Feng Mask Buff",
+  "item.mc_ct.lei_feng_mask_boots": "",
+  "effect.lei_feng_mask_buff": "Lei Feng Mask Buff",
+  "item.mc_ct.lei_feng_mask_helmet": "Lei Feng Mask ",
+  "biome.mc_ct.tnt_way": "TNT Way",
+  "item.minecraft.lingering_potion.effect.lei_feng_mask_buff": "Lingering Lei Feng Mask Buff",
+  "item.minecraft.tipped_arrow.effect.lei_feng_mask_buff": "Arrow of Lei Feng Mask Buff",
+  "output.mc_ct.leifengleftgame": "tellraw @a {\"text\":\"Lei_Feng_ left thr game\",\"color\":\"yellow\"}",
+  "item.minecraft.potion.effect.lei_feng_mask_buff": "Lei Feng Mask Buff",
+  "output.mc_ct.leifengjoingame": "tellraw @a {\"text\":\"Lei_Feng_  join the game\",\"color\":\"yellow\"}",
+  "itemGroup.tablei_feng_tab": "Lei Feng Tab",
+  "item.mc_ct.lei_feng_mask_chestplate": "",
+  "item.mc_ct.lei_feng_mask_leggings": "",
+  "item.mc_ct.lei_feng_spawn_egg": "Lei Feng Spawn Egg",
+  "entity.mc_ct.lei_feng": "Lei Feng"
+}

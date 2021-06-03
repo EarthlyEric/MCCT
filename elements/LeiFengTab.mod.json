@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "Lei Feng Tab",
+    "icon": {
+      "value": "CUSTOM:LeiFengWorld"
+    },
+    "showSearch": true
+  }
+}

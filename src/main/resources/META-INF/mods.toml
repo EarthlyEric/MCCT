@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="Custom license"
+
+[[mods]]
+modId="mc_ct"
+version="v0.2.beta"
+displayName="Minecraft Creative"
+credits="Build Tools:Mcreator"
+displayURL="https://home.reload-dev.ml/"
+logoFile="logo.png"
+authors="EarthlyEric6@Reload Dev"
+description='''
+LOL
+'''
+
+[[dependencies.mc_ct]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

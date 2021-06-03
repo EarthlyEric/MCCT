@@ -1,0 +1,18 @@
+{
+  "item.mc_ct.lei_feng_world": "雷瘋世界傳送門觸發器",
+  "item.minecraft.splash_potion.effect.lei_feng_mask_buff": "雷瘋之力粒子",
+  "item.mc_ct.lei_feng_mask_boots": "",
+  "effect.lei_feng_mask_buff": "雷瘋之力",
+  "item.mc_ct.lei_feng_mask_helmet": "雷瘋面具",
+  "biome.mc_ct.tnt_way": "TNT Way",
+  "item.minecraft.lingering_potion.effect.lei_feng_mask_buff": "Lingering Lei Feng Mask Buff",
+  "item.minecraft.tipped_arrow.effect.lei_feng_mask_buff": "Arrow of Lei Feng Mask Buff",
+  "output.mc_ct.leifengleftgame": "tellraw @a {\"text\":\"Lei_Feng_ 離開了遊戲\",\"color\":\"yellow\"}",
+  "item.minecraft.potion.effect.lei_feng_mask_buff": "Lei Feng Mask Buff",
+  "output.mc_ct.leifengjoingame": "tellraw @a {\"text\":\"Lei_Feng_ 加入了遊戲\",\"color\":\"yellow\"}",
+  "itemGroup.tablei_feng_tab": "Lei Feng Tab",
+  "item.mc_ct.lei_feng_mask_chestplate": "",
+  "item.mc_ct.lei_feng_mask_leggings": "",
+  "item.mc_ct.lei_feng_spawn_egg": "雷瘋 生成蛋",
+  "entity.mc_ct.lei_feng": "雷瘋"
+}

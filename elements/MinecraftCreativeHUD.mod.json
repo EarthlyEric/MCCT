@@ -1,0 +1,23 @@
+{
+  "_fv": 18,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "MCCT V.0.2.beta",
+          "color": {
+            "value": -16737946,
+            "falpha": 0.0
+          },
+          "name": "MCCT V.0.2.beta",
+          "x": 351,
+          "y": 230
+        }
+      }
+    ],
+    "baseTexture": ""
+  }
+}
