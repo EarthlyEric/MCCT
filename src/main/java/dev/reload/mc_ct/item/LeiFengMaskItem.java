@@ -42,7 +42,7 @@ public class LeiFengMaskItem extends McCtModElements.ModElement {
 	@ObjectHolder("mc_ct:lei_feng_mask_boots")
 	public static final Item boots = null;
 	public LeiFengMaskItem(McCtModElements instance) {
-		super(instance, 6);
+		super(instance, 2);
 	}
 
 	@Override

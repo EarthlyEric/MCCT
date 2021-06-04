@@ -36,9 +36,9 @@ public class LeiFengMaskBuff_WorkingProcedure extends McCtModElements.ModElement
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.FIRE_RESISTANCE, (int) 999999999, (int) 1, (false), (false)));
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SATURATION, (int) 999999999, (int) 5, (false), (false)));
-			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.RESISTANCE, (int) 999999999, (int) 10, (false), (false)));
+			if (entity instanceof LivingEntity)
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SATURATION, (int) 999999999, (int) 5, (false), (false)));
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.HUNGER, (int) 999999999, (int) 10, (false), (false)));
 			if (entity instanceof LivingEntity)
